@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{12A123DB-761D-4DC9-AFAB-F171B3C4F593}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>gh</RootNamespace>
+    <AssemblyName>gh</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sep10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep10.Designer.cs">
+      <DependentUpon>sep10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep11.Designer.cs">
+      <DependentUpon>sep11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep12.Designer.cs">
+      <DependentUpon>sep12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep13.Designer.cs">
+      <DependentUpon>sep13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep14.Designer.cs">
+      <DependentUpon>sep14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep15.Designer.cs">
+      <DependentUpon>sep15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep16.Designer.cs">
+      <DependentUpon>sep16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep17.Designer.cs">
+      <DependentUpon>sep17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep18.Designer.cs">
+      <DependentUpon>sep18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep19.Designer.cs">
+      <DependentUpon>sep19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep20.Designer.cs">
+      <DependentUpon>sep20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep21.Designer.cs">
+      <DependentUpon>sep21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep22.Designer.cs">
+      <DependentUpon>sep22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep23.Designer.cs">
+      <DependentUpon>sep23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep24.Designer.cs">
+      <DependentUpon>sep24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep25.Designer.cs">
+      <DependentUpon>sep25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep26.Designer.cs">
+      <DependentUpon>sep26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep27.Designer.cs">
+      <DependentUpon>sep27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep28.Designer.cs">
+      <DependentUpon>sep28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep29.Designer.cs">
+      <DependentUpon>sep29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep3.Designer.cs">
+      <DependentUpon>sep3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep30.Designer.cs">
+      <DependentUpon>sep30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep4.Designer.cs">
+      <DependentUpon>sep4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep5.Designer.cs">
+      <DependentUpon>sep5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep6.Designer.cs">
+      <DependentUpon>sep6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep7.Designer.cs">
+      <DependentUpon>sep7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep8.Designer.cs">
+      <DependentUpon>sep8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sep9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sep9.Designer.cs">
+      <DependentUpon>sep9.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="sep10.resx">
+      <DependentUpon>sep10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep11.resx">
+      <DependentUpon>sep11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep12.resx">
+      <DependentUpon>sep12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep13.resx">
+      <DependentUpon>sep13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep14.resx">
+      <DependentUpon>sep14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep15.resx">
+      <DependentUpon>sep15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep16.resx">
+      <DependentUpon>sep16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep17.resx">
+      <DependentUpon>sep17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep18.resx">
+      <DependentUpon>sep18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep19.resx">
+      <DependentUpon>sep19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep20.resx">
+      <DependentUpon>sep20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep21.resx">
+      <DependentUpon>sep21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep22.resx">
+      <DependentUpon>sep22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep23.resx">
+      <DependentUpon>sep23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep24.resx">
+      <DependentUpon>sep24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep25.resx">
+      <DependentUpon>sep25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep26.resx">
+      <DependentUpon>sep26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep27.resx">
+      <DependentUpon>sep27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep28.resx">
+      <DependentUpon>sep28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep29.resx">
+      <DependentUpon>sep29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep3.resx">
+      <DependentUpon>sep3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep30.resx">
+      <DependentUpon>sep30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep4.resx">
+      <DependentUpon>sep4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep5.resx">
+      <DependentUpon>sep5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep6.resx">
+      <DependentUpon>sep6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep7.resx">
+      <DependentUpon>sep7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep8.resx">
+      <DependentUpon>sep8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sep9.resx">
+      <DependentUpon>sep9.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
